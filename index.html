@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Poke Quiz</title>
+</head>
+
+<body>
+    <h1 id="tittle">POKE QUIZ</h1>
+    <div>
+        <p>Escolha até a geração desejada</p>
+        <select id="genSelect">
+            <option selected disabled value=""> - </option>
+            <option value="1">Gen 1</option>
+            <option value="2">Gen 2</option>
+            <option value="3">Gen 3</option>
+            <option value="4">Gen 4</option>
+            <option value="5">Gen 5</option>
+            <option value="6">Gen 6</option>
+            <option value="7">Gen 7</option>
+            <option value="8">Gen 8</option>
+            <option value="9">Todas</option>
+        </select>
+        <button type="submit" id="startQuiz">Iniciar Quiz</button>
+    </div> 
+
+    <div>
+        <input id="userInput" type="text" placeholder="Nome do Pokemon"/>
+        <button type="submit" id="confirmQuiz">Confirmar</button>
+    </div>
+
+    <div id="randomBox">
+        <h2 id="nome">_nome_</h2>
+        <img id="pokeImg">
+        <h3 id="numero">_numero_</h3>
+    </div>
+
+
+    <script src = "script.js"></script>
+</body>
+</html>
