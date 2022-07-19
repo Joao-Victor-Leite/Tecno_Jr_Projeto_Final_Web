@@ -10,33 +10,36 @@
 
 <body>
     <h1 id="tittle">POKE QUIZ</h1>
-    <div>
+    <div class="temporaria">
         <p>Escolha até a geração desejada</p>
-        <select id="genSelect">
-            <option selected disabled value=""> - </option>
-            <option value="1">Gen 1</option>
-            <option value="2">Gen 2</option>
-            <option value="3">Gen 3</option>
-            <option value="4">Gen 4</option>
-            <option value="5">Gen 5</option>
-            <option value="6">Gen 6</option>
-            <option value="7">Gen 7</option>
-            <option value="8">Gen 8</option>
-            <option value="9">Todas</option>
-        </select>
-        <button type="submit" id="startQuiz">Iniciar Quiz</button>
+        <div>
+            <select id="genSelect">
+                <option disabled value=""> - </option>
+                <option value="1">Gen 1</option>
+                <option value="2">Gen 2</option>
+                <option value="3">Gen 3</option>
+                <option value="4">Gen 4</option>
+                <option value="5">Gen 5</option>
+                <option value="6">Gen 6</option>
+                <option value="7">Gen 7</option>
+                <option value="8">Gen 8</option>
+                <option value="9">Todas</option>
+            </select>
+            <button type="submit" id="startQuiz">Iniciar Quiz</button>
+        </div>
     </div> 
+
+    <div id="randomBox">
+        <img id="pokeImg">
+        <!--<h2 id="nome">_nome_</h2>  -->
+        <!-- <h3 id="numero">_numero_</h3> -->
+    </div>
 
     <div>
         <input id="userInput" type="text" placeholder="Nome do Pokemon"/>
         <button type="submit" id="confirmQuiz">Confirmar</button>
     </div>
 
-    <div id="randomBox">
-        <h2 id="nome">_nome_</h2>
-        <img id="pokeImg">
-        <h3 id="numero">_numero_</h3>
-    </div>
 
 
     <script src = "script.js"></script>

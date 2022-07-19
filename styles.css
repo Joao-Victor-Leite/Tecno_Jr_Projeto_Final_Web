@@ -1,7 +1,41 @@
-#tittle{
-    color:yellow;
+body{
+    background-color: #4A76C7;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.temporaria{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 
 #randomBox{
     width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#pokeImg{
+    filter: brightness(0);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#pokeImg.brightNormal{
+    filter: brightness();
+    transform: scale(1.5);
+    
 }
