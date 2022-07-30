@@ -6,7 +6,8 @@
     - IMPORTANTE: fazer uma função de restaurar os padroes das sprites
     - Fazer um contador de tentativas
     - (termo) mostrar as letras certas caso a pessoa erre
-*/
+    - cor bonita: #1d2b3a
+    */
 
 //varáveis e constantes para a função pokeRandom
 const botaoStart = document.querySelector("#startQuiz")

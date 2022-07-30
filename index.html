@@ -10,9 +10,9 @@
 
 <body>
     <h1 id="tittle">POKE QUIZ</h1>
-    <div class="temporaria">
-        <p>Escolha até a geração desejada</p>
-        <div>
+    <h2>Escolha até a geração desejada</h2>
+    <div class="shadowSprite_Selector">
+        <div class="select">
             <select id="genSelect">
                 <option disabled value=""> - </option>
                 <option value="1">Gen 1</option>
@@ -25,7 +25,7 @@
                 <option value="8">Gen 8</option>
                 <option value="9">Todas</option>
             </select>
-            <button type="submit" id="startQuiz">Iniciar Quiz</button>
+            <button type="submit" id="startQuiz"><span></span>Iniciar Quiz</button>
         </div>
     </div> 
 
@@ -35,12 +35,11 @@
         <!-- <h3 id="numero">_numero_</h3> -->
     </div>
 
-    <div>
-        <input id="userInput" type="text" placeholder="Nome do Pokemon"/>
-        <button type="submit" id="confirmQuiz">Confirmar</button>
+    <div class="inputBox">
+        <input id="userInput" type="text"/>
+        <span>Nome do Pokemon</span>
+        <button type="submit" id="confirmQuiz"><span></span>Confirmar</button>
     </div>
-
-
 
     <script src = "script.js"></script>
 </body>
